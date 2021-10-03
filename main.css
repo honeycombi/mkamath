@@ -1,0 +1,33 @@
+/* Body */
+body {
+  counter-reset: box-problem;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.source::before {
+  content: "(";
+  font-weight: bold;
+  display: inline-block;
+}
+
+.source {
+  font-weight: bold;
+  display: inline-block;
+}
+
+.source::after {
+  content: ").";
+  font-weight: bold;
+  display: inline;
+}
+
+.problem {
+  counter-increment: box-problem;
+}
+
+.problem::before {
+  font-weight: bold;
+  font-style: normal;
+  content: "Problem " counter(box-problem) ". ";
+}
