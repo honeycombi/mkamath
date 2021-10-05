@@ -24,10 +24,18 @@ body {
 
 .problem {
   counter-increment: box-problem;
+  margin-bottom: 5px;
 }
 
 .problem::before {
   font-weight: bold;
   font-style: normal;
   content: "Problem " counter(box-problem) ". ";
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
