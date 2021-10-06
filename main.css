@@ -3,6 +3,7 @@ body {
   counter-reset: box-problem;
   margin-left: 5%;
   margin-right: 5%;
+  font-size: large;
 }
 
 .source::before {
@@ -24,7 +25,7 @@ body {
 
 .problem {
   counter-increment: box-problem;
-  margin-bottom: 5px;
+  margin-bottom: 50px;
 }
 
 .problem::before {
