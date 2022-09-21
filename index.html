@@ -2,8 +2,8 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
   <title>replit</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
 
@@ -22,39 +22,44 @@
       },
     };
   </script>
+
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
 
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="QB.html">Question Bank</a>
-    <a href="CS.html">Competition Schedule</a>
-  </nav>
-  
-  <center>
-    <h1>
-      Math Club Interactive Website
-    </h1>
-  </center>
+  <div class="home">
+    <div class="flex h-screen text-center">
+      <div class="m-auto">
+        <h1 class="text-8xl text-white">MKA Math Club</h1>
+        <br />
+        <br />
+        <div class="text-3xl">
+          <br />
+          <div class="text-blue-400">
+            <a href="QB.html">
+              <div class="inline cursor-pointer">Question Bank</div>
+            </a>
 
- <h2>
-   About Us
- </h2>
-  <p>
-    We are the Math Club Leaders
-  </p>
+            <div class="inline text-gray-100"> &#47;&#47; </div>
 
-  <h2>
-    Our Goal
-  </h2>
-  <p>
-    To foster interest in mathematics
-  </p>
-  <script src="script.js"></script>
+            <a href="/CS.html">
+              <div class="inline cursor-pointer">Competition Schedule</div>
+            </a>
 
-  -->
-  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+            <div class="inline text-gray-100"> &#47;&#47; </div>
+
+            <a href="/aboutus.html">
+              <div class="inline cursor-pointer">About Us</div>
+            </a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
 </body>
 
 </html>

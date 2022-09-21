@@ -1,0 +1,42 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: Times New Roman;
+}
+
+.home {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("https://scontent.fewr1-5.fna.fbcdn.net/v/t39.30808-6/284542370_10158444299431128_6722392330570182986_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=730e14&_nc_ohc=2KsC2fumB5cAX8TV7tH&_nc_oc=AQlIecUz0b8S2-HgDEMRSc7NDecE0p9HiI4B2hP7m_3joT1aDsu7aW7ch8frqhvhfzZ02xJQohBxudkCuXB-9vHP&_nc_ht=scontent.fewr1-5.fna&oh=00_AT-n5GmIh0zOYm0OqhS8CJOKvogWVEJTlMIDJpnw4PQ38w&oe=633126D6");
+
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.about {
+  background-image: url("https://townsquare.media/site/1097/files/2021/09/Copy-of-MKA-US-1-696x467-1.jpeg?w=1200&h=0&zc=1&s=0&a=t&q=89");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  text-align: center;
+}
+
+.about-card {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
