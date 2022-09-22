@@ -20,12 +20,20 @@ body {
 }
 
 .about {
-  background-image: url("https://townsquare.media/site/1097/files/2021/09/Copy-of-MKA-US-1-696x467-1.jpeg?w=1200&h=0&zc=1&s=0&a=t&q=89");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  height: 100vh;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.1)
+    ),
+    url("https://townsquare.media/site/1097/files/2021/09/Copy-of-MKA-US-1-696x467-1.jpeg?w=1200&h=0&zc=1&s=0&a=t&q=89");
+
   text-align: center;
+
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
 }
 
 .about-card {
